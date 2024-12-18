@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F8BEDBC2D107F7C00D78895 /* BellMedia_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8BEDBB2D107F7C00D78895 /* BellMedia_SwiftUIApp.swift */; };
+		4F8BEDBE2D107F7C00D78895 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8BEDBD2D107F7C00D78895 /* ContentView.swift */; };
+		4F8BEDC02D107F7F00D78895 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F8BEDBF2D107F7F00D78895 /* Assets.xcassets */; };
+		4F8BEDC32D107F7F00D78895 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F8BEDC22D107F7F00D78895 /* Preview Assets.xcassets */; };
+		4F8BEDD32D1326D900D78895 /* Range_Rover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4F8BEDCC2D1326D600D78895 /* Range_Rover.jpg */; };
+		4F8BEDD42D1326D900D78895 /* BMW_330i.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4F8BEDCD2D1326D600D78895 /* BMW_330i.jpg */; };
+		4F8BEDD52D1326D900D78895 /* Mercedez_benz_GLC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4F8BEDCE2D1326D700D78895 /* Mercedez_benz_GLC.jpg */; };
+		4F8BEDD62D1326D900D78895 /* Guidomia.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F8BEDCF2D1326D700D78895 /* Guidomia.png */; };
+		4F8BEDD72D1326D900D78895 /* Tacoma.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4F8BEDD02D1326D800D78895 /* Tacoma.jpg */; };
+		4F8BEDD82D1326D900D78895 /* car_list.json in Resources */ = {isa = PBXBuildFile; fileRef = 4F8BEDD12D1326D800D78895 /* car_list.json */; };
+		4F8BEDD92D1326D900D78895 /* Alpine_roadster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4F8BEDD22D1326D900D78895 /* Alpine_roadster.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F8BEDB82D107F7C00D78895 /* BellMedia_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BellMedia_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F8BEDBB2D107F7C00D78895 /* BellMedia_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BellMedia_SwiftUIApp.swift; sourceTree = "<group>"; };
+		4F8BEDBD2D107F7C00D78895 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4F8BEDBF2D107F7F00D78895 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F8BEDC22D107F7F00D78895 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4F8BEDCC2D1326D600D78895 /* Range_Rover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Range_Rover.jpg; sourceTree = "<group>"; };
+		4F8BEDCD2D1326D600D78895 /* BMW_330i.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BMW_330i.jpg; sourceTree = "<group>"; };
+		4F8BEDCE2D1326D700D78895 /* Mercedez_benz_GLC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mercedez_benz_GLC.jpg; sourceTree = "<group>"; };
+		4F8BEDCF2D1326D700D78895 /* Guidomia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Guidomia.png; sourceTree = "<group>"; };
+		4F8BEDD02D1326D800D78895 /* Tacoma.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tacoma.jpg; sourceTree = "<group>"; };
+		4F8BEDD12D1326D800D78895 /* car_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = car_list.json; sourceTree = "<group>"; };
+		4F8BEDD22D1326D900D78895 /* Alpine_roadster.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Alpine_roadster.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F8BEDB52D107F7C00D78895 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F8BEDAF2D107F7C00D78895 = {
+			isa = PBXGroup;
+			children = (
+				4F8BEDBA2D107F7C00D78895 /* BellMedia_SwiftUI */,
+				4F8BEDB92D107F7C00D78895 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F8BEDB92D107F7C00D78895 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F8BEDB82D107F7C00D78895 /* BellMedia_SwiftUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F8BEDBA2D107F7C00D78895 /* BellMedia_SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				4F8BEDCB2D1326A800D78895 /* Presentation */,
+				4F8BEDCA2D13269C00D78895 /* Domain */,
+				4F8BEDC92D13268800D78895 /* Data */,
+				4F8BEDBF2D107F7F00D78895 /* Assets.xcassets */,
+				4F8BEDC12D107F7F00D78895 /* Preview Content */,
+			);
+			path = BellMedia_SwiftUI;
+			sourceTree = "<group>";
+		};
+		4F8BEDC12D107F7F00D78895 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4F8BEDC22D107F7F00D78895 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4F8BEDC92D13268800D78895 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				4F8BEDD22D1326D900D78895 /* Alpine_roadster.jpg */,
+				4F8BEDCD2D1326D600D78895 /* BMW_330i.jpg */,
+				4F8BEDD12D1326D800D78895 /* car_list.json */,
+				4F8BEDCF2D1326D700D78895 /* Guidomia.png */,
+				4F8BEDCE2D1326D700D78895 /* Mercedez_benz_GLC.jpg */,
+				4F8BEDCC2D1326D600D78895 /* Range_Rover.jpg */,
+				4F8BEDD02D1326D800D78895 /* Tacoma.jpg */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		4F8BEDCA2D13269C00D78895 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		4F8BEDCB2D1326A800D78895 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				4F8BEDBB2D107F7C00D78895 /* BellMedia_SwiftUIApp.swift */,
+				4F8BEDBD2D107F7C00D78895 /* ContentView.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F8BEDB72D107F7C00D78895 /* BellMedia_SwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F8BEDC62D107F7F00D78895 /* Build configuration list for PBXNativeTarget "BellMedia_SwiftUI" */;
+			buildPhases = (
+				4F8BEDB42D107F7C00D78895 /* Sources */,
+				4F8BEDB52D107F7C00D78895 /* Frameworks */,
+				4F8BEDB62D107F7C00D78895 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BellMedia_SwiftUI;
+			productName = BellMedia_SwiftUI;
+			productReference = 4F8BEDB82D107F7C00D78895 /* BellMedia_SwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F8BEDB02D107F7C00D78895 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					4F8BEDB72D107F7C00D78895 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = 4F8BEDB32D107F7C00D78895 /* Build configuration list for PBXProject "BellMedia_SwiftUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F8BEDAF2D107F7C00D78895;
+			productRefGroup = 4F8BEDB92D107F7C00D78895 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F8BEDB72D107F7C00D78895 /* BellMedia_SwiftUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F8BEDB62D107F7C00D78895 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F8BEDD72D1326D900D78895 /* Tacoma.jpg in Resources */,
+				4F8BEDC32D107F7F00D78895 /* Preview Assets.xcassets in Resources */,
+				4F8BEDD32D1326D900D78895 /* Range_Rover.jpg in Resources */,
+				4F8BEDD92D1326D900D78895 /* Alpine_roadster.jpg in Resources */,
+				4F8BEDD62D1326D900D78895 /* Guidomia.png in Resources */,
+				4F8BEDD52D1326D900D78895 /* Mercedez_benz_GLC.jpg in Resources */,
+				4F8BEDC02D107F7F00D78895 /* Assets.xcassets in Resources */,
+				4F8BEDD82D1326D900D78895 /* car_list.json in Resources */,
+				4F8BEDD42D1326D900D78895 /* BMW_330i.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F8BEDB42D107F7C00D78895 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F8BEDBE2D107F7C00D78895 /* ContentView.swift in Sources */,
+				4F8BEDBC2D107F7C00D78895 /* BellMedia_SwiftUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4F8BEDC42D107F7F00D78895 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4F8BEDC52D107F7F00D78895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F8BEDC72D107F7F00D78895 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BellMedia_SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = U278MZ55GY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.doh.BellMedia-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F8BEDC82D107F7F00D78895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BellMedia_SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = U278MZ55GY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.doh.BellMedia-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F8BEDB32D107F7C00D78895 /* Build configuration list for PBXProject "BellMedia_SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F8BEDC42D107F7F00D78895 /* Debug */,
+				4F8BEDC52D107F7F00D78895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F8BEDC62D107F7F00D78895 /* Build configuration list for PBXNativeTarget "BellMedia_SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F8BEDC72D107F7F00D78895 /* Debug */,
+				4F8BEDC82D107F7F00D78895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F8BEDB02D107F7C00D78895 /* Project object */;
+}
