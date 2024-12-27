@@ -18,6 +18,9 @@
 		4F8BEDD72D1326D900D78895 /* Tacoma.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4F8BEDD02D1326D800D78895 /* Tacoma.jpg */; };
 		4F8BEDD82D1326D900D78895 /* car_list.json in Resources */ = {isa = PBXBuildFile; fileRef = 4F8BEDD12D1326D800D78895 /* car_list.json */; };
 		4F8BEDD92D1326D900D78895 /* Alpine_roadster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4F8BEDD22D1326D900D78895 /* Alpine_roadster.jpg */; };
+		4F8BEDDB2D17316800D78895 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8BEDDA2D17316700D78895 /* Car.swift */; };
+		4F8BEDDE2D17319B00D78895 /* CarService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8BEDDD2D17319B00D78895 /* CarService.swift */; };
+		4F8BEDE12D17321B00D78895 /* CarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8BEDE02D17321B00D78895 /* CarViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +36,9 @@
 		4F8BEDD02D1326D800D78895 /* Tacoma.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tacoma.jpg; sourceTree = "<group>"; };
 		4F8BEDD12D1326D800D78895 /* car_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = car_list.json; sourceTree = "<group>"; };
 		4F8BEDD22D1326D900D78895 /* Alpine_roadster.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Alpine_roadster.jpg; sourceTree = "<group>"; };
+		4F8BEDDA2D17316700D78895 /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		4F8BEDDD2D17319B00D78895 /* CarService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarService.swift; sourceTree = "<group>"; };
+		4F8BEDE02D17321B00D78895 /* CarViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,7 @@
 		4F8BEDC92D13268800D78895 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				4F8BEDDC2D17316E00D78895 /* Model */,
 				4F8BEDD22D1326D900D78895 /* Alpine_roadster.jpg */,
 				4F8BEDCD2D1326D600D78895 /* BMW_330i.jpg */,
 				4F8BEDD12D1326D800D78895 /* car_list.json */,
@@ -106,10 +113,28 @@
 		4F8BEDCB2D1326A800D78895 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				4F8BEDDF2D17320600D78895 /* ViewModel */,
 				4F8BEDBB2D107F7C00D78895 /* BellMedia_SwiftUIApp.swift */,
 				4F8BEDBD2D107F7C00D78895 /* ContentView.swift */,
 			);
 			path = Presentation;
+			sourceTree = "<group>";
+		};
+		4F8BEDDC2D17316E00D78895 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4F8BEDDD2D17319B00D78895 /* CarService.swift */,
+				4F8BEDDA2D17316700D78895 /* Car.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4F8BEDDF2D17320600D78895 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4F8BEDE02D17321B00D78895 /* CarViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +153,8 @@
 			dependencies = (
 			);
 			name = BellMedia_SwiftUI;
+			packageProductDependencies = (
+			);
 			productName = BellMedia_SwiftUI;
 			productReference = 4F8BEDB82D107F7C00D78895 /* BellMedia_SwiftUI.app */;
 			productType = "com.apple.product-type.application";
@@ -156,6 +183,8 @@
 				Base,
 			);
 			mainGroup = 4F8BEDAF2D107F7C00D78895;
+			packageReferences = (
+			);
 			productRefGroup = 4F8BEDB92D107F7C00D78895 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -191,6 +220,9 @@
 			files = (
 				4F8BEDBE2D107F7C00D78895 /* ContentView.swift in Sources */,
 				4F8BEDBC2D107F7C00D78895 /* BellMedia_SwiftUIApp.swift in Sources */,
+				4F8BEDE12D17321B00D78895 /* CarViewModel.swift in Sources */,
+				4F8BEDDE2D17319B00D78895 /* CarService.swift in Sources */,
+				4F8BEDDB2D17316800D78895 /* Car.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
