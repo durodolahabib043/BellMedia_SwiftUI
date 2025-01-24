@@ -15,92 +15,52 @@ struct ContentView: View {
     
     var body: some View {
         NavigationStack {
-            
-            ScrollView {
-                LazyVStack(alignment: .leading,spacing: 10) {
-                    ForEach(viewModel.cars ?? []) { car in
-                        
-                        
-                        ZStack(alignment: .leading) {
-                            HStack {
-                                VStack {
-                                    if let path = Bundle.main.path(forResource: car.image, ofType: nil) {
-                                        let url = URL(fileURLWithPath: path)
-                                        AsyncImage(url: url) { image in
-                                            image.resizable()
-                                                .frame(height: 100)
-                                        } placeholder: {
-                                            ProgressView()
-                                        }
-                                        .frame(maxWidth: 100)
-                                    }
-                                    Print("habib \(car.prosList)")
-                                    
-                                  //sampleCar = car.prosList
-                                    if isExpanded[car.id] ?? false {
-                                        
-                                        VStack {
-                                            
-                                            Text("Year: \(Int.random(in: 2000..<2026)) ")
-                                                .font(.footnote)
-                                                .animation(.easeInOut)
-                                            if  !car.prosList.isEmpty {
-                                                Text(car.prosList[0])
-                                            }
-                                           
-                                            
-                                            
-                                            /*
-                                             
-                                             ForEach(sampleCar,id: \.self){ prolist in
-                                                 print("habib \(prolist)")
-                                                // Text(prolist)
-                                             }
-                                             */
-                                         //   print("habib is here \(sampleCar)")
-                                   
-                                        }
-                                        
-                                        
-                                    }
-                                    
+            ZStack {
+                Color.white
+                VStack {
+                    headerView()
+                    Spacer()
+                        ScrollView {
+                            LazyVStack(alignment: .leading,spacing: 10) {
+                                ForEach(viewModel.cars ?? []) { car in
+                                    Print(car.model)
+                                    ListCell(row: 0, model: car)
                                 }
-                                
-                                VStack(spacing: 14) {
-                                    Text(car.make)
-                                    Text("\(car.customerPrice/1000) K")
-                                    /*
-                                     if isExpanded[car.id] ?? false {
-                                     Text("Year: \(Int.random(in: 2000..<2026))")
-                                     .font(.footnote)
-                                     }
-                                     */
-                                    
-                                }
-                                .background(.red)
                             }
-                            
-                            Button(action: {
-                                isExpanded[car.id] = !(isExpanded[car.id] ?? false)
-                            }) {
-                                Color.clear
-                            }
-                            .frame(maxWidth: .infinity, maxHeight: .infinity)
                         }
-                        
-                        .padding()
-                        
-                    }
                 }
-                //.frame(maxWidth: .infinity)
                 
                 
             }
             
+            .navigationBarTitleDisplayMode(.inline)
+            .navigationTitle("GUIDOMIA")
         }
+        
         .task {
             Task {
                 await viewModel.fetchCarDetails()
+            }
+        }
+    }
+    
+    @ViewBuilder
+    private func headerView() -> some View {
+        if let path = Bundle.main.path(forResource: "Tacoma.jpg", ofType: nil) {
+            let url = URL(fileURLWithPath: path)
+            AsyncImage(url: url) { image in
+                image.resizable()
+                    .frame(height: 300)
+            } placeholder: {
+                ProgressView()
+            }
+            .frame(maxWidth: .infinity)
+            .overlay(alignment: .bottomLeading) {
+                VStack(alignment: .leading) {
+                    Text("Tacoma 2021").foregroundColor(.white).font(.title)
+                    Text("Get your's now").foregroundColor(.white).font(.subheadline)
+                }
+                .padding()
             }
         }
     }

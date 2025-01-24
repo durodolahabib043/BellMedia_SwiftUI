@@ -8,7 +8,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "E7E8043C-D628-47E4-A738-D9B0F4C2099C"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BellMedia_SwiftUI/Presentation/ViewModel/CarViewModel.swift"
@@ -24,7 +24,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "F42B0697-153E-4F95-A194-A7511D8EBDBF"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BellMedia_SwiftUI/Data/Model/CarService.swift"
@@ -72,7 +72,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "378DA242-28BF-4170-8FA3-C40C1A31EF39"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BellMedia_SwiftUI/Presentation/ViewModel/CarViewModel.swift"
@@ -82,13 +82,60 @@
             endingLineNumber = "28"
             landmarkName = "fetchCarDetails()"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "378DA242-28BF-4170-8FA3-C40C1A31EF39 - c32f854783fe1f4c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for BellMedia_SwiftUI.CarViewModel.fetchCarDetails() async -&gt; ()"
+                  moduleName = "BellMedia_SwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/habibdurodola/Desktop/iOSProjects/BellMedia_SwiftUI/BellMedia_SwiftUI/Presentation/ViewModel/CarViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "378DA242-28BF-4170-8FA3-C40C1A31EF39 - f5965f7a9ddfe4d0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for BellMedia_SwiftUI.CarViewModel.fetchCarDetails() async -&gt; ()"
+                  moduleName = "BellMedia_SwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/habibdurodola/Desktop/iOSProjects/BellMedia_SwiftUI/BellMedia_SwiftUI/Presentation/ViewModel/CarViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "378DA242-28BF-4170-8FA3-C40C1A31EF39 - 3416432cbf68936e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for BellMedia_SwiftUI.CarViewModel.fetchCarDetails() async -&gt; ()"
+                  moduleName = "BellMedia_SwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/habibdurodola/Desktop/iOSProjects/BellMedia_SwiftUI/BellMedia_SwiftUI/Presentation/ViewModel/CarViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "87">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "B93D9261-3F41-4F9E-8786-195AF0E02968"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BellMedia_SwiftUI/Data/Model/CarService.swift"
@@ -104,7 +151,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "31E2F5BC-CD9D-4CB7-83EF-290F21753C50"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BellMedia_SwiftUI/Presentation/ViewModel/CarViewModel.swift"
@@ -114,6 +161,22 @@
             endingLineNumber = "23"
             landmarkName = "init(carService:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DB996A97-EB99-4FED-9B9E-5133A15C8ADC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BellMedia_SwiftUI/Presentation/ListCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "body"
+            landmarkType = "24">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
