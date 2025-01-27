@@ -179,5 +179,69 @@
             landmarkType = "24">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9E8F251C-08DF-484A-97B3-C267A6297170"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BellMedia_SwiftUI/Presentation/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "59835588-7AA0-469E-B244-812C4387E4BF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BellMedia_SwiftUI/Presentation/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "59835588-7AA0-469E-B244-812C4387E4BF - ac7763f2dfca7b81"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Int) -&gt; () in BellMedia_SwiftUI.ContentView.body.getter : some"
+                  moduleName = "BellMedia_SwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/habibdurodola/Desktop/iOSProjects/BellMedia_SwiftUI/BellMedia_SwiftUI/Presentation/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "1059">
+               </Location>
+               <Location
+                  uuid = "59835588-7AA0-469E-B244-812C4387E4BF - 209754d6b4dde516"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (BellMedia_SwiftUI.Car) -&gt; Swift.Bool in closure #2 (Swift.Int) -&gt; () in BellMedia_SwiftUI.ContentView.body.getter : some"
+                  moduleName = "BellMedia_SwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/habibdurodola/Desktop/iOSProjects/BellMedia_SwiftUI/BellMedia_SwiftUI/Presentation/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "67">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

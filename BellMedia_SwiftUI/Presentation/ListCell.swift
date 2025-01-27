@@ -46,6 +46,7 @@ struct ListCell: View {
                     .padding()
                     
                 }
+                Divider()
             }
     
         }

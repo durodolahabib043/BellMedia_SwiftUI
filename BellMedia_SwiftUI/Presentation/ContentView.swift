@@ -11,18 +11,21 @@ struct ContentView: View {
     @ObservedObject var viewModel = CarViewModel()
     @State private var isExpanded: [UUID: Bool] = [:]
     @State private var sampleCar: [String] = []
-    
+    @State private var selectedcar = 0
+    @State private var filteredCars: [Car]?
+      
+    let carType = ["All", "Range Rover", "Roadster", "3300i", "GLE coupe"]
     
     var body: some View {
         NavigationStack {
             ZStack {
                 Color.white
                 VStack {
-                    headerView()
-                    Spacer()
                         ScrollView {
+                            headerView()
+                            searchView()
                             LazyVStack(alignment: .leading,spacing: 10) {
-                                ForEach(viewModel.cars ?? []) { car in
+                                ForEach(filteredCars ?? []) { car in
                                     Print(car.model)
                                     ListCell(row: 0, model: car)
                                 }
@@ -36,10 +39,22 @@ struct ContentView: View {
             .navigationBarTitleDisplayMode(.inline)
             .navigationTitle("GUIDOMIA")
         }
+        .onChange(of: selectedcar, perform: { newValue in
+            Print("this changed \(newValue)")
+            if selectedcar == 0 {
+                /// return all cars
+                filteredCars = viewModel.cars
+            } else {
+                filteredCars = viewModel.cars?.filter({ car in
+                    car.model == carType[newValue]
+                })
+            }
+        })
         
         .task {
             Task {
                 await viewModel.fetchCarDetails()
+                filteredCars = viewModel.cars
             }
         }
     }
@@ -63,6 +78,24 @@ struct ContentView: View {
                 .padding()
             }
         }
+    }
+    
+    @ViewBuilder
+    private func searchView() -> some View {
+        Section {
+            HStack {
+                Text("Select your filter")
+                Spacer()
+                Picker("Filter ", selection: $selectedcar) {
+                    ForEach(0..<carType.count, id: \.self) {
+                        Text(carType[$0])
+                    }
+                }.pickerStyle(.menu)
+            }
+            .padding()
+        
+        }
+        .accentColor(.black)
     }
 }
 
